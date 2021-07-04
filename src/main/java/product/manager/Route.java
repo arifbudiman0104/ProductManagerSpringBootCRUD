@@ -24,4 +24,8 @@ public class Route {
 //    public String getIndex(){
 //        return "index";
 //    }
+    @RequestMapping("/form")
+    public String getForm(){
+        return "formProduct";
+    }
 }
